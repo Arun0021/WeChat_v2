@@ -36,7 +36,7 @@ const Login = () => {
   const dispatch = useDispatch();
 
   const handleLogin = async (e) => {
-    e.preventDefault();
+    // e.preventDefault();
 
     const toastId = toast.loading("Logging In...");
 
@@ -71,7 +71,7 @@ const Login = () => {
   };
 
   const handleSignUp = async (e) => {
-    e.preventDefault();
+    // e.preventDefault();
 
     const toastId = toast.loading("Signing Up...");
     setIsLoading(true);
