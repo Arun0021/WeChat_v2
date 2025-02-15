@@ -28,8 +28,8 @@ const Login = () => {
 
   const name = useInputValidation("");
   const bio = useInputValidation("");
-  const username = useInputValidation("", usernameValidator);
-  const password = useInputValidation("");
+  const username = useInputValidation("Aryan", usernameValidator);
+  const password = useInputValidation("Aryan1234");
 
   const avatar = useFileHandler("single");
 
